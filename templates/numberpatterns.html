@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+<html>
+<head>
+    {%block url_block%}
+    <title>Numberpatterns</title>
+    <link rel="SHORTCUT ICON" href="{% static 'images/main_logo.png' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'Css/numberpattern.Css'%}">
+    {%endblock%}
+</head>
+
+<body>
+{%block body_block%}
+<div class="content">
+    <div id="innerwrapeer" class="innerwrapeer">
+        <h2><u>Number Pattern Programs:</u></h2><br>
+
+        <!-- first number pattern program start-->
+        <h4>Program 1:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                a = int(input("Enter the number of rows:"))<br>
+                for i in range(1, a+1):<br>
+                &emsp;&emsp;for j in range(1, a + 1):<br>
+                &emsp;&emsp;&emsp;&emsp;print(i, end=" ")<br>
+                &emsp;&emsp;print()<br>
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_1.png'%}" class="output_1" alt="..." style="width:500px; height:400px;">
+        </div><br>
+        <!-- first number pattern program end-->
+
+        <!-- second number pattern program start-->
+        <h4>Program 2:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                a = int(input("Enter the number of rows:"))<br>
+                for i in range(1, a+1):<br>
+                &emsp;&emsp;for j in range(1, a + 1):<br>
+                &emsp;&emsp;&emsp;&emsp;print(j, end=" ")<br>
+                &emsp;&emsp;print()<br>
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_2.png'%}" class="output_1" alt="..." style="width:500px; height:400px;">
+        </div><br>
+        <!-- second number pattern program end-->
+
+        <!-- third number pattern program start-->
+        <h4>Program 3:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                a = int(input("Enter the number of rows:"))<br>
+                for i in range(1, a+1):<br>
+                &emsp;&emsp;for j in range(1, a + 1):<br>
+                &emsp;&emsp;&emsp;&emsp;print(a+1-i, end=" ")<br>
+                &emsp;&emsp;print()<br>
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_3.png'%}" class="output_1" alt="..." style="width:500px; height:400px;">
+        </div><br>
+        <!-- third number pattern program end-->
+
+        <!-- fourth number pattern program start-->
+        <h4>Program 4:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                a = int(input("Enter the number of rows:"))<br>
+                for i in range(1, a+1):<br>
+                &emsp;&emsp;for j in range(1, a + 1):<br>
+                &emsp;&emsp;&emsp;&emsp;print(a+1-j, end=" ")<br>
+                &emsp;&emsp;print()<br>
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_4.png'%}" class="output_1" alt="..." style="width:500px; height:400px;">
+        </div><br>
+        <!-- fourth number pattern program end-->
+
+        <!-- fifth number pattern program start-->
+        <h4>Program 5:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                a = int(input("Enter the number of rows:"))<br>
+                for i in range(1, a+1):<br>
+                &emsp;&emsp;for j in range(1, i + 1):<br>
+                &emsp;&emsp;&emsp;&emsp;print(i, end=" ")<br>
+                &emsp;&emsp;print()<br>
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_5.png'%}" class="output_1" alt="..." style="width:500px; height:400px;">
+        </div><br>
+        <!-- fifth number pattern program end-->
+
+        <!-- sixth number pattern program start-->
+        <h4>Program 6:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                a = int(input("Enter the number of rows:"))<br>
+                for i in range(1, a+1):<br>
+                &emsp;&emsp;for j in range(1, i + 1):<br>
+                &emsp;&emsp;&emsp;&emsp;print(j, end=" ")<br>
+                &emsp;&emsp;print()<br>
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_6.png'%}" class="output_1" alt="..." style="width:500px; height:400px;">
+        </div><br>
+        <!-- sixth number pattern program end-->
+
+        <!-- seventh number pattern program start-->
+        <h4>Program 7:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                a = int(input("Enter the number of rows:"))<br>
+                for i in range(1, a+1):<br>
+                &emsp;&emsp;for j in range(1, a+2-i):<br>
+                &emsp;&emsp;&emsp;&emsp;print(i, end=" ")<br>
+                &emsp;&emsp;print()<br>
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_7.png'%}" class="output_1" alt="..." style="width:500px; height:400px;">
+        </div><br>
+        <!-- seventh number pattern program end-->
+
+        <!-- eighth number pattern program start-->
+        <h4>Program 8:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                a = int(input("Enter the number of rows:"))<br>
+                for i in range(1, a+1):<br>
+                &emsp;&emsp;for j in range(1, a+2-i):<br>
+                &emsp;&emsp;&emsp;&emsp;print(j, end=" ")<br>
+                &emsp;&emsp;print()<br>
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_8.png'%}" class="output_1" alt="..." style="width:500px; height:400px;">
+        </div><br>
+        <!-- eighth number pattern program end-->
+
+        <!-- ninth number pattern program start-->
+        <h4>Program 9:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                a = int(input("Enter the number of rows:"))<br>
+                for i in range(1, a+1):<br>
+                &emsp;&emsp;for j in range(1, a+2-i):<br>
+                &emsp;&emsp;&emsp;&emsp;print(a+1-i, end=" ")<br>
+                &emsp;&emsp;print()<br>
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_9.png'%}" class="output_1" alt="..." style="width:500px; height:400px;">
+        </div><br>
+        <!-- ninth number pattern program end-->
+
+        <!-- tenth number pattern program start-->
+        <h4>Program 10:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                a = int(input("Enter the number of rows:"))<br>
+                for i in range(1, a+1):<br>
+                &emsp;&emsp;for j in range(1, a+2-i):<br>
+                &emsp;&emsp;&emsp;&emsp;print(a+1-j, end=" ")<br>
+                &emsp;&emsp;print()<br>
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_10.png'%}" class="output_1" alt="..." style="width:500px; height:400px;">
+        </div><br>
+        <!-- tenth number pattern program end-->
+
+        <!-- eleventh number pattern program start-->
+        <h4>Program 11:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                a = int(input("Enter the number of rows:"))<br>
+                for i in range(1, a+1):<br>
+                &emsp;&emsp;print(" " * (a - i), (str(i) + "") * i)<br>
+                &emsp;&emsp;print()<br>
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_11.png'%}" class="output_1" alt="..." style="width:500px; height:600px;">
+        </div><br>
+        <!-- eleventh number pattern program end-->
+
+        <!-- Twelveth number pattern program start-->
+        <h4>Program 12:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                a = int(input("Enter the number of rows:"))<br>
+                for i in range(1, a+1):<br>
+                &emsp;&emsp;print(" " * (a - i), end="")<br>
+                &emsp;&emsp;for j in range(1, i):<br>
+                &emsp;&emsp;&emsp;&emsp;print(i - j, end=" ")<br>
+                &emsp;&emsp;for k in range(0, i):<br>
+                &emsp;&emsp;&emsp;&emsp;print(k, end=" ")<br>
+                &emsp;&emsp;print()<br>
+
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_12.png'%}" class="output_1" alt="..." style="width:500px; height:500px;">
+        </div><br>
+        <!-- Twelveth number pattern program end-->
+
+        <!-- Thirteen number pattern program start-->
+        <h4>Program 13:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                number = int(input("Enter a number:"))<br>
+                for i in range(1, number+1):<br>
+                &emsp;&emsp;for j in range(1, i+1):<br>
+                &emsp;&emsp;&emsp;&emsp;print(number - i + j - 1, end=" ")<br>
+                &emsp;&emsp;print()<br>
+                for a in range(1, number + 1):<br>
+                &emsp;&emsp;for k in range(0, number - a):<br>
+                &emsp;&emsp;&emsp;&emsp;print(k+a, end=" ")<br>
+                &emsp;&emsp;print()<br>
+
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_13.png'%}" class="output_1" alt="..." style="width:500px; height:500px;">
+        </div><br>
+        <!-- Thirteen number pattern program end-->
+
+        <!-- Fourteen number pattern program start-->
+        <h4>Program 14:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                number = int(input("Enter a number:"))<br>
+                for i in range(1, number+1):<br>
+                &emsp;&emsp;print(" " * (number - i), end="")<br>
+                &emsp;&emsp;for j in range(i, i +1):<br>
+                &emsp;&emsp;&emsp;&emsp;print(i, end=" ")<br>
+                &emsp;&emsp;&emsp;&emsp;if i >= 2:<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;print(" "*(2*i-4), end="")<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;for k in range(i, i+1):<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;print(i, end=" ")<br>
+                &emsp;&emsp;print()<br>
+
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_14.png'%}" class="output_1" alt="..." style="width:500px; height:500px;">
+        </div><br>
+        <!-- Fourteen number pattern program end-->
+
+        <!-- Fifteen number pattern program start-->
+        <h4>Program 15:</h4><br>
+        <div class="myDiv"><br>
+            <p>
+                a = int(input("Enter a number : "))<br>
+                for i in range(1, a + 1):<br>
+                &emsp;&emsp;for j in range(1, i + 1):<br>
+                &emsp;&emsp;&emsp;&emsp;if (i % 2!= 0 and j % 2!= 0) or (i % 2== 0 and j % 2== 0):<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;print("1", end=" ")<br>
+                &emsp;&emsp;&emsp;&emsp;else:<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;print("0", end=" ")<br>
+                &emsp;&emsp;print()<br>
+
+            </p>
+        </div><br>
+        <h4>Output:</h4><br>
+        <div class="output1">
+            <img src="{%static 'images/n_15.png'%}" class="output_1" alt="..." style="width:500px; height:500px;">
+        </div><br>
+        <!-- Fifteen number pattern program end-->
+
+
+
+    </div>
+</div>
+
+
+
+{%endblock%}
+</body>
+
+</html>

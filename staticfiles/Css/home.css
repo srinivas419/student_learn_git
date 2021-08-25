@@ -1,0 +1,30 @@
+.content {
+    padding-top: 0px;
+    padding-left: 8%;
+}
+
+.innerwrapeer {
+  width: 90%;
+  padding: 20px;
+  margin: 5px;
+}
+
+.highlight {
+    color: red;
+}
+
+.myDiv {
+  background-color: #F6E3CE;
+  border: 1px solid green;
+  padding-left:2%;
+
+}
+
+.id {
+    text-indent: 50px;
+}
+
+.output_1 {
+    padding-left: 4%;
+}
+
